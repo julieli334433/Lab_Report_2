@@ -19,7 +19,9 @@ Description of Code and Screenshots:
 ## Part 2:
 
 Failure Inducing Input:
-`@Test 
+
+```
+@Test 
 	public void testReverseInPlace() {
     int[] input1 = { 1, 2, 3, 4, 5};
     ArrayExamples.reverseInPlace(input1);
@@ -31,7 +33,8 @@ Failure Inducing Input:
   public void testReversed() {
     int[] input1 = { 1, 2, 3, 4, 5 };
     assertArrayEquals(new int[]{ 5, 4, 3, 2, 1 }, ArrayExamples.reversed(input1));
-  }`
+  }
+```
 
 An Input that doesn't induce a failure:
 
@@ -42,22 +45,24 @@ The bug before and after:
 Before:
 <img width="1396" alt="Screen Shot 2023-04-24 at 11 23 48 PM" src="https://user-images.githubusercontent.com/130112383/234191793-169ac6a7-58de-4719-8579-79f101889a95.png">
 After:
-`static void reverseInPlace(int[] arr) {
+```
+static void reverseInPlace(int[] arr) {
     for(int i = 0; i < arr.length/2; i += 1) {
       int var = arr[i];
       arr[i] = arr[arr.length - i - 1];
       arr[arr.length - i - 1] = var;
     }
-  }`
- 
- `static int[] reversed(int[] arr) {
+  }
+ ```
+ ```
+ static int[] reversed(int[] arr) {
     int[] newArray = new int[arr.length];
     for(int i = 0; i < arr.length; i += 1) {
       newArray[i] = arr[arr.length - i - 1];
     }
     return newArray;
   }
-`
+```
 
 Fix Explanation:
 This fix worked because for testReverseInPlace instead of making a whole for loop, only loop half and assign a new variable. For reversed, it was returning the wrong array.
