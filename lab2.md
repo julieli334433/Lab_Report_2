@@ -1,18 +1,23 @@
-#Part 1:
+# Lab_Report_2
+## Part 1:
+
 First extension:
 <img width="1440" alt="Screen Shot 2023-04-24 at 11 01 02 PM" src="https://user-images.githubusercontent.com/130112383/234188014-7579cc9d-8778-4696-ac18-0c98edbb574d.png">
 - In this image I added apple into the list
+
 Second extension:
 <img width="1440" alt="Screen Shot 2023-04-24 at 11 01 22 PM" src="https://user-images.githubusercontent.com/130112383/234188066-6abdf5fa-5f4b-4501-9ee4-5d6d7ba21fbf.png">
 - In this second image I added orange after apple
 Code:
 <img width="1440" alt="Screen Shot 2023-04-24 at 11 03 10 PM" src="https://user-images.githubusercontent.com/130112383/234188103-09a42b3a-8b80-4276-bb42-2e0ace03d7ff.png">
+
 Description of Code and Screenshots:
 1. The method that is being called is handleRequest.
 2. The first extension that was added is `add-message?s=Apple`. In the if statement it checks if it contains `add-message` and then splits between the equal sign to get the string `Apple`. It then adds that new message into an arraylist and returns it.
 3. The second extension does the same thing, `Orange` gets added after `Apple`.
 
-#Part 2:
+## Part 2:
+
 Failure Inducing Input:
 `@Test 
 	public void testReverseInPlace() {
@@ -58,5 +63,6 @@ Fix Explanation:
 This fix worked because for testReverseInPlace instead of making a whole for loop, only loop half and assign a new variable. For reversed, it was returning the wrong array.
 
 
-#Part 3:
+## Part 3:
+
 Something new I learned during week 2 and week 3 consists of creating a new server and learning how to debug a program efficiently. I have never created a new server and I didn't know you could add extensions at the end of the url and have it performed on the page. 
