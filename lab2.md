@@ -1,4 +1,5 @@
 # Lab_Report_2
+In this lab, it shows what I have learned over the past weeks about servers and bugs.
 ## Part 1:
 
 First extension:
