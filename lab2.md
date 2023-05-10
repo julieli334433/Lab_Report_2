@@ -1,7 +1,7 @@
 # Lab_Report_2
 In this lab, it shows what I have learned over the past weeks about servers and bugs.
 ## Part 1:
-
+For part 1, I created a new server called StringServer by copying the code from NumberServer in the wavelet folder into a new file. After that I have made some adjustments to the code such as changing the class name to StringServer and changing to how the server is suppose to behave. I changed the if statement so that you can add a string and 
 First extension:
 <img width="1440" alt="Screen Shot 2023-04-24 at 11 01 02 PM" src="https://user-images.githubusercontent.com/130112383/234188014-7579cc9d-8778-4696-ac18-0c98edbb574d.png">
 - In this image I added apple into the list
