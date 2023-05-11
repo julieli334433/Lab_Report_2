@@ -51,6 +51,7 @@ public void testReverseInPlace() {
 ```
 
 **The Symptom:**
+- In this screenshot, it shows the symptom of the code, showing 2 failures. 
 <img width="1440" alt="Screen Shot 2023-04-20 at 4 36 46 PM" src="https://user-images.githubusercontent.com/130112383/234190326-06d266ab-153e-4dc5-8269-2107663e23d0.png">
 
 **The bug before and after:**
