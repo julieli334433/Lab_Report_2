@@ -8,8 +8,10 @@ For part 1, I created a new server called StringServer by copying the code from 
 2. Then I added an if statement with `url.getPath().contains("add-message")`. This means that this checks if the extension added will contain "add-message".
 3. Next I created an array called parameters split with the `=` sign by using the `url.getQuery().split('=')`. This works by just getting the query part of the path being `s=<string>`. This splits between the `=` and creates 2 parts which is `s` and `<string>`. With these 2 parts they are stored inside the array. 
 4. I then created another if statement to check if the first part of parameters is equal to s, if it is, then proceed with the next step.
+5. Then I update the the string `s` in the beginning, and I concatenated the second part of the query and added `\n` meaning add a line, so when you add a second string, it will go down to next line. 
+6. Last step is to return the string shown here at the first extension.
 First extension:
-- In this image I added apple into the list
+- In this image I added Apple into the list using `add-message?s=Apple` to the url.
 <img width="1440" alt="Screen Shot 2023-04-24 at 11 01 02 PM" src="https://user-images.githubusercontent.com/130112383/234188014-7579cc9d-8778-4696-ac18-0c98edbb574d.png">
 
 
