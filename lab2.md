@@ -14,11 +14,12 @@ First extension:
 - In this image I added Apple into the list using `add-message?s=Apple` to the url.
 <img width="1440" alt="Screen Shot 2023-04-24 at 11 01 02 PM" src="https://user-images.githubusercontent.com/130112383/234188014-7579cc9d-8778-4696-ac18-0c98edbb574d.png">
 
-
+- In this second image I added `Orange` after `Apple` using `add-message?s=Orange` to the url.
+- How this works is due to the implementation explained above. So first `Apple` is added, then it concatenates with `Orange` moving it to the next line, that is why `Orange` is below `Apple`.
 Second extension:
 <img width="1440" alt="Screen Shot 2023-04-24 at 11 01 22 PM" src="https://user-images.githubusercontent.com/130112383/234188066-6abdf5fa-5f4b-4501-9ee4-5d6d7ba21fbf.png">
-- In this second image I added orange after apple
-Code:
+
+Here is my Code for the implementation:
 <img width="1440" alt="Screen Shot 2023-04-24 at 11 03 10 PM" src="https://user-images.githubusercontent.com/130112383/234188103-09a42b3a-8b80-4276-bb42-2e0ace03d7ff.png">
 
 Description of Code and Screenshots:
